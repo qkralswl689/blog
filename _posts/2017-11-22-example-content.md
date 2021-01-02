@@ -3,7 +3,7 @@ layout: post
 title: Hi i'm minji
 description: >
   This is my first 
-tags: [hydejack]
+tags: [박민지]
 ---
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
