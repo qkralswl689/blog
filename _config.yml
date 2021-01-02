@@ -22,18 +22,17 @@ baseurl: ""
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack
+title:                 박 민
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  A Jekyll theme with JavaScript powers. "Best Theme by a Mile".
-  Combines the best of static sites and modern web apps.
+  박민지의 페이지 입니다.
   Open `_config.yml` to edit this text.
 
 # A shorter description for the sidebar.
 tagline:               >
-  A Jekyll theme with JavaScript powers.
+  안녕하세
   Open `_config.yml` to edit this text.
 
 # A list of keywords for your blog
@@ -45,13 +44,13 @@ logo:                  /assets/icons/icon.png
 # This should be the same author as first entry in `_data/authors.yml`.
 # Duplication is necessary due to the `jekyll-feed`, `jekyll-seo-tag` plugin.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                <MINJI> <PARK>
+  email:               <qkralswl689@gmail.com>
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2017. All rights reserved.
+copyright:             © 2020. All rights reserved.
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
