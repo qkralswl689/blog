@@ -1,7 +1,7 @@
 ---
 layout: list
-title: Hydejack
-slug: hydejack
+title: 저는박민지입니다
+slug: 밍밍
 menu: true
 order: 2
 description: >
