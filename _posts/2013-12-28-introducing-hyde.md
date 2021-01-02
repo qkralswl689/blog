@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Introducing Hyde
+title: 나에대해서
 description: >
-  Hyde is a brazen two-column [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content.
-tags: [hyde]
+  나는 나 입니다  [Jekyll](http://jekyllrb.com) theme that pairs a prominent sidebar with uncomplicated content.
+tags: [클릭해보세요]
 author: author2
 canonical_url: http://hyde.getpoole.com/2013/12/28/introducing-hyde/
 ---
