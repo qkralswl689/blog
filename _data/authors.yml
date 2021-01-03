@@ -1,82 +1,96 @@
-# The primary author of this blog.
-# Must be the same as `author` in `_config.yml`.
-# Change `author1` to your shortname.
-author1:
-  name:              <MINJI> <PARK>
-  email:             <qkralswl689@gmail.com>
-
-  # Used at the bottom of each page and at the top of the `about` layout
-  # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
-    안녕하세요 반가워요
-
-    Open `_data/authors.yml` to edit this text.
-
-  # This photo will be used in the about section
-  picture:
-    path:            https://placehold.it/128x128
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
-
-  # Social media icons in sidebar
-  # Comment/uncommet to show/hide
-  # Rearrange to change the order in which they appear
-  social:
-    #twitter:         <username>
-    #github:          <username>
-    # email:           mailto:<mail@domain.tld>
-    # rss:             https://<url>/feed.xml
-    # facebook:        <username>
-    # google:          <number>
-    # vk:              <username>
-    # youtube:         <string_string_string>
-    # vimeo:           <username>
-    # vine:            <username>
-    # spotify:         <user>/<number>
-    # soundcloud:      <username>
-    # lastfm:          <username>
-     instagram:       <username>
-    # flickr:          <string@string>
-    # 500px:           <username>
-    # dribbble:        <username>
-    # behance:         <username>
-    # deviantart:      <username>
-    # ello:            <username>
-    # twitch:          <username>
-    # steam:           <number>
-    # reddit:          <username>
-    # tumblr:          <username>
-    # pinterest:       <username>
-    # foursquare:      <number>
-    # yelp:            <string>
-    # stackoverflow:   <number/username>
-    # npm:             <username>
-    # hackernews:      <username>
-    # trello:          <firstnamelastname>
-    # linkedin:        <firstname-lastname-string>
-    # xing:            <firstname_lastname_counter>
-    # blogger:         <number>
-    # delicious:       <username>
-    # stumbleupon:     <username>
-    # paypal:          <username>
-    # download:        https://github.com/qwtel/hydejack-starter-kit/archive/v7.5.0.zip
-
-# Another author (optional)
-author2:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
-  twitter:           <username>
-  github:            <username>
-  accent_color:      '#268bd2'
-  accent_image:
-    background:      '#202020'
-    overlay:         false
+# If you have a `resume.json` file, copy it into `_data` and delete this file.
+# If you don't have a JSON Resume you can just edit this YAML file instead.
+# See also: <https://jsonresume.org/>.
+basics:
+  name: "박민지"
+  label: "Programmer"
+  picture: "https://placehold.it/126x126"
+  email: ""
+  phone: "(912) 555-4321"
+  website: "https://piedpiper.com"
+  summary: >
+    **THIS IS AN EXAMPLE RESUME**.
+    안녕나는나야
+  location:
+    address: "2712 Broadway St"
+    postalCode: "CA 94115"
+    city: "San Francisco"
+    countryCode: "US"
+    region: "California"
+  profiles:
+    - network: "Twitter"
+      username: "RHendricksCEO"
+      url: ""
+    - network: "LinkedIn"
+      username: "Richard Hendricks"
+      url: ""
+work:
+  - company: "Pied Piper"
+    position: "CEO/President"
+    website: "https://piedpiper.com"
+    startDate: "2013-12-01"
+    endDate: ""
+    summary: >
+      Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has
+      consistently fielded high Weisman Scores™ that are not merely competitive,
+      but approach the theoretical limit of lossless compression.
+    highlights:
+      - "Build an algorithm for artist to detect if their music was violating copy right infringement laws"
+      - "Successfully won Techcrunch Disrupt"
+      - "Optimized an algorithm that holds the current world record for Weisman Scores"
+volunteer:
+  - organization: "CoderDojo"
+    position: "Teacher"
+    website: "https://coderdojo.com/"
+    startDate: "2012-01-01"
+    endDate: "2013-01-01"
+    summary: "Global movement of free coding clubs for young people."
+    highlights:
+      - "Awarded 'Teacher of the Month'"
+education:
+  - institution: "University of Oklahoma"
+    area: "Information Technology"
+    studyType: "Bachelor"
+    startDate: "2011-06-01"
+    endDate: "2014-01-01"
+    gpa: "4.0"
+    courses:
+      - "DB1101 - Basic SQL"
+      - "CS2011 - Java Introduction"
+awards:
+  - title: "Digital Compression Pioneer Award"
+    date: "2014-11-01"
+    awarder: "Techcrunch"
+    summary: "There is no spoon."
+publications:
+  - name: "Video compression for 3d media"
+    publisher: "Hooli"
+    releaseDate: "2014-10-01"
+    website: "https://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
+    summary: "Innovative middle-out compression algorithm that changes the way we store data."
+skills:
+  - name: "Web Development"
+    level: "Master"
+    keywords:
+      - "HTML"
+      - "CSS"
+      - "Javascript"
+  - name: "Compression"
+    level: "Master"
+    keywords:
+      - "Mpeg"
+      - "MP4"
+      - "GIF"
+languages:
+  - language: "English"
+    fluency: "Native speaker"
+interests:
+  - name: "Wildlife"
+    keywords:
+      - "Ferrets"
+      - "Unicorns"
+references:
+  - name: "Erlich Bachman"
+    reference: >
+      It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
+      Company proved that he will be a valuable addition to any company.

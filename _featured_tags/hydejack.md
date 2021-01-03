@@ -1,6 +1,6 @@
 ---
 layout: list
-title: 저는박민지입니다
+title: Mingki
 slug: 밍밍
 menu: true
 order: 2
