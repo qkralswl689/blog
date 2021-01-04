@@ -1,6 +1,4 @@
+.idea/
 _site
-.sass-cache
-.idea
-resumecard.iml
-/*.iml
-Gemfile.lock
+vendor/ruby
+.vscode

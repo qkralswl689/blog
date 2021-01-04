@@ -1,22 +1,24 @@
 <!DOCTYPE html>
-<html>
-	<div class="ribbon right red">
-	  <a href="https://github.com/ddbullfrog/resumecard">Fork me on GitHub</a>
-	</div>
-  {% include head.html %}
+<html lang="en-us">
+    
+    {% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+    {% include nav.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {% include about.html %}
+
+    {% include skills.html %}
+
+    {% include projects.html %}
+
+    {% include blogs.html %}
+        
+    {% include extra.html %}
 
     {% include footer.html %}
-	{% include googleanalytics.html %}
-  </body>
 
+    {% include scripts.html %}
+</body>
 </html>

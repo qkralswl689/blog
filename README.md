@@ -1,41 +1,29 @@
-# resumecard
--------
-resumecard is a theme built on top of bootstrap and other freely available libraries. Its aimed to provide a fully furnished Jekyll theme for personal resume.  
+# Portfolio
 
-[![Build Status](https://travis-ci.org/ddbullfrog/resumecard.svg?branch=gh-pages)](https://travis-ci.org/ddbullfrog/resumecard)
+A simple and modern portfolio template that is lightweight, mobile responsive and looks modern. 
 
-## Demo
--------
-You can see the live demo of [resumecard](https://ddbullfrog.github.io/resumecard)
+- [Demo](#demo)
+- [Screenshots](#screenshots)
+- [Features](#features)
+- [Installation](#installation)
 
-This is the web page on desktop browser.
+### Demo
+[abhn.io](https://abhn.io)
 
-![Desktop](https://github.com/ddbullfrog/resumecard/blob/gh-pages/_assets/normal.jpg)
+### Screenshots
+![homepage](tmp/screenshot.jpg?raw=true "Homepage")
 
-## Getting Started
--------
-- [Fork this repository](https://github.com/ddbullfrog/resumecard/fork)
-- Clone it: `git clone https://github.com/YOUR-USER/resumecard`
-- Run the jekyll server: `jekyll serve`
+### Features
+- Single page portfolio made with vanilla CSS and jQuery
+- Sections: Landing, About, Skills (with neat bar graphs), Projects, Contact
+- Smooth scrolling
+- Fully mobile responsive, made with latest CSS3 grid and flexbox, polyfills included
+- Lightweight and easily customizable
 
-You should have a server up and running locally at <http://localhost:4000>.
+### Installation
+- Clone this repository and in the settings, set up Github pages in the setting and optionally a custom domain. The site is live now on `your-username.github.io/portfolio`.
+- In the config variables, add your details and if you use Google Analytics, add your Publisher ID in the `google_analytics` variable.
+- You can add/remove sections from the `_layouts/default.html` file, and then adding the corresponding html file in `_includes/` directory.
 
-## Features
--------
-- Responsive Jekyll theme
-- Easy integration with Google Analytics
-
-## Configuration
--------
-- _config.yml
--  CNAME
-	If you're using it on GitHub Pages with a custom domain name, 
-	you'll want to change it to be the domain you're going to use. 
-	All that should be in here is a domain name on the first line and nothing else (like: `example.com`).
--  avatar.JPG
-	This is a smaller version of my gravatar for use as the icon in your browser's address bar. 
-	You should change it to whatever you'd like.
-
-## License
--------
-Open sourced under the [MIT license](LICENSE.md).
+### License
+GPL

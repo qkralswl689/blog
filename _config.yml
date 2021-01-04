@@ -1,74 +1,21 @@
-# Site settings
-title: MINJI PARK's CV
-description: MINJI PARK's CV
-favicon: /assets/img/avatar.JPG
-baseurl: ""
-url: https://qkralswl689.github.io
-rss_url: /pages/atom.xml
-google_analytics: UA-63653234-1
+title: Abhishek Nagekar
+description: Web & Security Engineer
+site_title: '@abhn - Abhishek Nagekar'
 
 # Build settings
 markdown: kramdown
+exclude: [vendor/ruby]
 
-exclude: [vendor]
+# Personalization
+github_username: abhn
+blog_url: https://www.nagekar.com
+email: abhishek@nagekar.com
+keybase_username: abhn
+twitter_username: abhn_
+reddit_username: abhn
 
-# Author settings
-author:
-  name:  박 민지
-  title: Java Developer
-  address: 경기도
-  email: qkralswl689@gmail.com
-  weibo:
-  github: qkralswl689.github.io
-  gavatar: /resumecard/assets/img/avatar.JPG
-  stackoverflow:
-#  stackoverflow: 4582127
-  workHistory:
-    - work1:
-      company: (주)다나와컴퓨터
-      title: 재무관리팀
-      duration: (2018.12.10 - 2020.11.13)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work2:
-      company: (주)알앤엘커뮤니케이션
-      title: 경영지원팀
-      duration: (2018.05.07 - 2018.12.07)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-    - work3:
-      company: 명지대학교
-      title: 학사지원
-      duration: (2014.03.02 - 2016.02.29)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  educationHistory:
-    - education1:
-      organization: 명지대학교
-      degree: 학사
-      major: 음악학부 피아노전공
-      duration: (2010 - 2014)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  languages:
-    - language1:
-      name: English
-      proficiency: OPIC IM1
-    - language2:
-      name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
-  programmingSkills:
-    - skill1:
-      name: HTML
-      percentage: 100%
-    - skill2:
-      name: Bootstrap
-      percentage: 90%
-    - skill3:
-      name: JavaScript
-      percentage: 70%
-    - skill4:
-      name: AngularJS
-      percentage: 70%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
+# absolute or relative
+profile_picture: assets/images/pp.jpg
+
+# Google Analytics ID
+google_analytics: 
