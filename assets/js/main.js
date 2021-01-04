@@ -24,7 +24,7 @@ function blog_posts() {
     let posts = [
         {
             url: 'https://blog.naver.com/alswl689',
-            title: 'Trek To Bramhatal (Uttarakhand)',
+            title: '밍밍',
         },
         {
             url: 'https://www.nagekar.com/2017/08/privacy.html',
