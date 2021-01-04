@@ -1,17 +1,16 @@
-title: Abhishek Nagekar
-description: Web & Security Engineer
-site_title: '@abhn - Abhishek Nagekar'
+title: MINJI,PARK
+description: "나중"
+site_title: 'MINJI PARK'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
+github_username: qkralswl689
 blog_url: https://qkralswl689.github.io
-email: 
-keybase_username: abhn
-twitter_username: abhn_
+email:
+keybase_username: qkralswl689
 reddit_username: abhn
 
 # absolute or relative
