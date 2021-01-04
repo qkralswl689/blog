@@ -23,12 +23,12 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://blog.naver.com/alswl689',
-            title: '밍밍',
+            url: 'https://blog.naver.com/alswl2689/222098456418',
+            title: '밍밍1',
         },
         {
-            url: 'https://www.nagekar.com/2017/08/privacy.html',
-            title: 'Privacy - How I Converted',
+            url: 'https://blog.naver.com/alswl2689/222098407716',
+            title: '밍밍2',
         },
         {
             url: 'https://www.nagekar.com/2018/01/jagriti-yatra.html',
