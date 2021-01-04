@@ -23,8 +23,8 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://qkralswl689.github.io/mingblog.github.io/',
-            title: '밍밍1',
+            url: 'https://qkralswl689.github.io/mingblog.github.io/%EC%B2%AB%EB%B2%88%EC%A7%B8%EA%B8%80',
+            title: '1번',
         },
         {
             url: 'https://blog.naver.com/alswl2689/222098407716',
