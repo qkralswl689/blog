@@ -23,7 +23,7 @@ function blog_posts() {
     // keeping it static, can be fetched from a blog dynamically as well
     let posts = [
         {
-            url: 'https://www.nagekar.com/2017/02/trip-to-bramhatal-uttarakhand.html',
+            url: 'https://blog.naver.com/alswl689',
             title: 'Trek To Bramhatal (Uttarakhand)',
         },
         {
@@ -49,7 +49,7 @@ function blog_posts() {
     for(let post of posts) {
 
         let tags;
-        
+
         if(post.tags) {
             tags = post.tags.map(tag => {
                 return `<a href="https://www.nagekar.com/tags#${tag}">${tag}</a>`
@@ -60,11 +60,11 @@ function blog_posts() {
         <div class="blog-post" onclick="blog_link_click('${post.url}');">
 
             <div class="blog-link">
-    
-                <h3><a href="${post.url}">${post.title}</a></h3>            
+
+                <h3><a href="${post.url}">${post.title}</a></h3>
 
             </div>
-    
+
             <div class="blog-goto-link">
                 <img class="blog-arrow" src="/assets/images/right-open-mini.svg"/>
             </div>
@@ -80,7 +80,7 @@ function blog_posts() {
 
         <div class="blog-link">
 
-            <h3><a href="https://www.nagekar.com">Visit the blog for more posts</a></h3>            
+            <h3><a href="https://www.nagekar.com">Visit the blog for more posts</a></h3>
 
         </div>
 
